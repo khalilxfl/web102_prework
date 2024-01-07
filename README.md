@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='https://i.imgur.com/YlEijHp.gif' title='Prework' width='' alt='Video Walkthrough' />
+https://i.imgur.com/YlEijHp.gif  (This gif is also listed above in the file named Prework.gif if you have trouble accessing the link.)
 
 GIF created with [ScreenToGif](https://www.screentogif.com/)  
 
