@@ -26,7 +26,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='web102_prework\Prework.gif' title='Prework' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/IO9AflG' title='Prework' width='' alt='Video Walkthrough' />
 
 GIF created with [ScreenToGif](https://www.screentogif.com/)  
 
