@@ -2,29 +2,97 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    background-color: white;
+    padding-top: 70px;
+}
+
+h3{
+    color: white;
 }
 
 #tentacles {
     width: 50px;
 }
 
-.header {
-    display: flex;
-    background-color: lightblue;
-    padding: 1%;
-    align-items: center;
-    margin-left: -10px;
-    margin-right: -10px;
-    margin-top: -10px;
+#num-contributions, #total-raised, #num-games{
+    color: white;
 }
 
+#unfunded-btn, #funded-btn, #all-btn{
+    cursor: pointer;
+}
+
+.header {
+  background: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8));
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 100;
+  padding: 10px; 
+
+}
+
+.header-text{
+    padding: 0; 
+    margin: 0; 
+    position: relative;
+    color: white;
+    text-decoration: none;
+  }
+
+  .navbar a {
+    position: relative;
+    font-size: 25px;
+    color: white;
+    font-weight: 35;
+    text-decoration: none;
+    margin-left: 200px;
+    margin-right: 100px;
+
+  }
+  
+  .navbar a::before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 0;
+    left: 0;
+    height: 2px;
+    background: white;
+    transition: 0.3s;
+  }
+  
+  .navbar a:hover:before {
+    content: "";
+    position: absolute;
+    top: 100%;
+    width: 100%;
+    left: 0;
+    height: 2px;
+    background: white;
+  }
+
+  .navbar a:not(:last-child) {
+    margin-right: 80px; 
+}
+  
 .stats-container {
     display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.stats-container:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8));
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
@@ -41,6 +109,10 @@ body {
     flex-wrap: wrap;
     justify-content: space-around;
 }
+#games-container:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
 
 .game-img {
     width: 100%;
@@ -59,11 +131,12 @@ body {
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px black;
 }
 
 #button-container {
     text-align: center;
+    background: linear-gradient(rgba(0, 0, 50, 0.8), rgba(0, 0, 50, 0.8));
 }
 
 button {
